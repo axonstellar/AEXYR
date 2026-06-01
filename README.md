@@ -24,9 +24,15 @@
 
 ## Overview
 
-Æxyr is an autonomous AI agent that lives inside a Docker container. It operates its own Linux environment, manages services, writes and executes code, browses the web, and orchestrates multi-agent workflows — all through a real-time web interface.
+Æxyr is a self-hosted autonomous AI agent platform that lives inside a Docker container on your hardware. It operates its own Linux environment with full access to a terminal, file system, package management, and service orchestration — governed by a biological-inspired safety protocol that gates every action through confidence, safety, and necessity scoring before execution.
 
-Give it a task. It figures out how, executes the steps, verifies the results, and comes back with the answer. No hand-holding, no copy-pasting commands.
+This isn’t a terminal-only coding assistant or a cloud-hosted builder that holds your code hostage. Æxyr is a complete autonomous platform with a real visual interface — a Server Rack for managing services, a Network Topology map for visualizing your architecture, an Operations Center for system-level control, SSL certificate management, a file browser, process monitoring, and more. Your code never leaves your machine. No telemetry, no cloud dependency, no third-party access to your infrastructure.
+
+Tell Æxyr what to build in natural language. It writes production-grade code, configures proxies, assigns ports, provisions SSL certificates, sets up databases, launches services, and ships to production — autonomously. When something breaks, it detects the failure, reads the logs, diagnoses the root cause, applies a targeted fix, restarts the service, and documents the incident. You sleep through the 3 AM outage.
+
+For complex work, Æxyr spawns specialized sub-agents — developer, researcher, and security profiles — running in parallel through a synaptic delegation protocol. Pre-built workflow playbooks (Engrams) encode operational expertise: one command can deploy a full-stack service, provision infrastructure, remediate failures, or run health scans across your entire constellation. Persistent vector memory lets Æxyr recall solutions, architectural decisions, and learned patterns across sessions permanently.
+
+One autonomous agent. Self-hosted. Fully yours. No subscriptions, no cloud bills, no lock-in.
 
 ```bash
 docker run -d --name aexyr -p 9594:80 ghcr.io/axonstellar/aexyr:latest
