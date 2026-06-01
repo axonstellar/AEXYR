@@ -1,0 +1,23 @@
+services:
+  aexyr:
+    container_name: aexyr-agent
+    image: ghcr.io/axonstellar/aexyr:latest
+    restart: unless-stopped
+    ports:
+      - "9594:80"
+    volumes:
+      - aexyr-data:/aexyr/usr
+      - aexyr-logs:/aexyr/logs
+      - aexyr-tmp:/aexyr/tmp
+      - aexyr-data2:/aexyr/data
+    environment:
+      - AUTH_LOGIN=admin
+      - AUTH_PASSWORD=aexyr
+    mem_limit: 8g
+    cpus: 4.0
+
+volumes:
+  aexyr-data:
+  aexyr-logs:
+  aexyr-tmp:
+  aexyr-data2:
