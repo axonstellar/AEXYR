@@ -188,7 +188,7 @@ volumes:
 docker compose up -d
 ```
 
-### ARM64 architecture support
+### ARM64 architecture
 
 ```bash
 docker run -d --name aexyr -p 9594:80 \
