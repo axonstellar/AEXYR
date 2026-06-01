@@ -17,7 +17,7 @@
 
 ---
 
-**[Storefront](https://aexyr-store.axonstellar.com)** · **[EULA](EULA.md)** · **[Changelog](CHANGELOG.md)** · **[Third-Party Notices](THIRD-PARTY-NOTICES.md)**
+**[Storefront](https://aexyr-store.axonstellar.ai)** · **[EULA](EULA.md)** · **[Changelog](CHANGELOG.md)** · **[Third-Party Notices](THIRD-PARTY-NOTICES.md)**
 
 </div>
 
@@ -248,7 +248,7 @@ All data persists across container restarts and upgrades.
 | **Binding** | — | One license per instance |
 | **Activation** | Automatic | Online (once), then fully offline |
 
-Purchase at **[aexyr-store.axonstellar.com](https://aexyr-store.axonstellar.com)**
+Purchase at **[aexyr-store.axonstellar.com](https://aexyr-store.axonstellar.ai)**
 
 ---
 
@@ -305,6 +305,6 @@ See [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) for open-source component a
 
 *Synaptic grid synced. All nodes online. Traffic is flowing.* 🚀
 
-**[Get Started →](https://aexyr-store.axonstellar.com)**
+**[Get Started →](https://aexyr-store.axonstellar.ai)**
 
 </div>
