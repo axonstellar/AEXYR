@@ -49,7 +49,7 @@ Live visualization of your entire service constellation. Every running service, 
 ![Topology](screenshots/topology_dark.png)
 
 ### Server Rack
-Real-time service dashboard. Start, stop, and restart services. Monitor ports, health status, and resource allocation across your constellation.
+Your constellation command center. Every deployed service appears as a live card showing port, health status, and resource usage. Start, stop, and restart any service with one click. Built-in workflow playbooks (Engrams) are accessible directly from each service card — run diagnostics, export configurations, inspect logs, or execute remediation steps without leaving the dashboard. As your constellation grows, the rack gives you a unified control plane for managing every node in your architecture.
 
 ![Server Rack](screenshots/rack_dark.png)
 
@@ -59,7 +59,7 @@ CPU, memory, disk, and process monitoring with historical charts. Identify resou
 ![Vitals](screenshots/vitals_dark.png)
 
 ### Neural Core
-The Action Potential Protocol — Æxyr's decision-making engine visualized. Watch confidence, safety, and necessity signals fire in real time as the agent evaluates actions.
+Inspired by biological neural networks, the Action Potential Protocol is Æxyr’s constraint and decision-making engine. Before executing any autonomous action, three dendrite signals fire — Confidence, Safety, and Necessity — each weighted and summed against a threshold bias. If the activation crosses the threshold, the axon fires and the action executes. If not, Æxyr pauses and asks for guidance. Destructive actions like file deletion or system changes receive full signal calculation with strict safety weighting, while read-only operations auto-approve. A development mode lowers thresholds for creative work. Every decision is transparent — you can see exactly why the agent chose to act or hold back.
 
 ![Neural Core](screenshots/neural_dark.png)
 
@@ -107,12 +107,12 @@ Configure different models for chat, utility, and browser tasks independently.
 ### AxonStellar Platform
 | Module | Purpose |
 |---|---|
-| **Server Rack** | Real-time service dashboard — start, stop, restart, monitor |
+| **Server Rack** | Constellation command center with live service cards, one-click lifecycle controls, and integrated workflow playbooks |
 | **Topology** | Interactive constellation map with persistent node placement, live health, and connection tracing |
 | **Manifests** | Persistent service registry with auto-discovery |
 | **Vitals** | CPU, memory, disk monitoring with historical charts |
 | **Ops Center** | Network, nginx, process management, terminal |
-| **Neural Core** | Action Potential Protocol — decision-making visualization |
+| **Neural Core** | Action Potential Protocol — biological decision-making engine with transparent signal calculation |
 | **SSL Management** | Certificate provisioning, domain binding, auto-renewal |
 | **Files** | Full file manager with syntax-highlighted editor |
 | **Tasks** | Scheduled and ad-hoc autonomous task execution |
