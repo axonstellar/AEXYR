@@ -92,7 +92,7 @@ Browse, edit, upload, and download files across the entire user space. Syntax-hi
 
 ### Multi-Provider LLM Support
 
-Connect to 8 different LLM providers out of the box — from cloud API services offering hundreds of frontier and open-source models to fully local inference with zero API cost. Mix and match providers across tasks: assign one model for conversation, another for utility work, and a third for autonomous browsing. Switch providers at any time through Settings without restarting.
+Connect to different LLM providers out of the box — from cloud API services offering hundreds of frontier and open-source models to fully local inference with zero API cost. Mix and match providers across tasks: assign one model for conversation, another for utility work, and a third for autonomous browsing. Switch providers at any time through Settings without restarting.
 
 ### AxonStellar Platform
 | Module | Purpose |
