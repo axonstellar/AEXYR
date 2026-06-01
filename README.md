@@ -292,7 +292,11 @@ Persistent volumes ensure your data, projects, and settings survive updates.
 
 Æxyr is proprietary software published by **AxonStellar LLC**.
 
-Usage is governed by the [End User License Agreement (EULA)](EULA.md). A 10-day free trial is included with every installation. Continued use beyond the trial period requires a purchased license key.
+**Every installation includes a 10-day free trial with full, unrestricted access to the entire platform.** No credit card required, no feature gates, no limitations. A live countdown banner tracks your remaining trial time.
+
+After the trial period, a license gate activates and platform access requires a purchased license key. A one-time payment of **$49.99** grants a permanent license — no subscriptions, no recurring fees, no expiration. The trial period serves as your complete evaluation window.
+
+Usage is governed by the [End User License Agreement (EULA)](EULA.md).
 
 See [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) for open-source component attributions.
 
