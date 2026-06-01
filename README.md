@@ -281,7 +281,7 @@ API keys are configured through the Settings page after login — not via enviro
 
 ## Updates
 
-Æxyr is provided as-is at the current release version. Future releases are planned — follow this repository or visit the [storefront](https://aexyr-store.axonstellar.com/) for announcements.
+Æxyr is provided as-is at the current release version. Future releases are planned — follow this repository or visit the [storefront](https://aexyr-store.axonstellar.ai/news.html) for announcements.
 
 ---
 
