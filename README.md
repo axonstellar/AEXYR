@@ -75,7 +75,9 @@ System-level operations dashboard. Network listeners, nginx proxy configuration,
 ![Ops Center](screenshots/opscenter_dark.png)
 
 ### SSL Certificate Management
-End-to-end SSL lifecycle management powered by Let’s Encrypt and Cloudflare DNS-01 validation. Provision certificates with a single command — the platform handles domain verification, certificate generation, nginx configuration, and domain-to-service binding automatically. The certificate chain and domain verification status are visualized in the UI, with renewal tracking and automated renewal ensuring certificates never expire unnoticed. Æxyr can provision and assign SSL certificates autonomously as part of any deployment workflow.
+End-to-end SSL lifecycle management powered by Let’s Encrypt and Cloudflare DNS-01 validation. Provision certificates with a single command — the platform handles domain verification, certificate generation, nginx configuration, and domain-to-service binding automatically. The certificate chain and domain verification status are visualized in the UI, with renewal tracking and automated renewal ensuring certificates never expire unnoticed.
+
+Æxyr can provision and assign SSL certificates autonomously as part of any deployment workflow.
 
 ![Certificates](screenshots/certificates_dark.png)
 
