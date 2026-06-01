@@ -24,7 +24,7 @@
 
 ## Overview
 
-xyr is an autonomous AI agent that lives inside a Docker container. It operates its own Linux environment, manages services, writes and executes code, browses the web, and orchestrates multi-agent workflows — all through a real-time web interface.
+Æxyr is an autonomous AI agent that lives inside a Docker container. It operates its own Linux environment, manages services, writes and executes code, browses the web, and orchestrates multi-agent workflows — all through a real-time web interface.
 
 Give it a task. It figures out how, executes the steps, verifies the results, and comes back with the answer. No hand-holding, no copy-pasting commands.
 
@@ -292,7 +292,7 @@ Persistent volumes ensure your data, projects, and settings survive updates.
 
 ## License
 
-xyr is proprietary software published by **AxonStellar LLC**.
+Æxyr is proprietary software published by **AxonStellar LLC**.
 
 Usage is governed by the [End User License Agreement (EULA)](EULA.md). A 10-day free trial is included with every installation. Continued use beyond the trial period requires a purchased license key.
 
