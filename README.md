@@ -131,7 +131,7 @@ Configure different models for chat, utility, and browser tasks independently.
 - **Container hardening** — `cap_drop: NET_RAW`, `no-new-privileges`, iptables egress rules
 - **Authentication** — session-based login with configurable credentials
 - **EULA enforcement** — mandatory acceptance gate before platform access
-- **Ed25519 license signing** — cryptographically verified license keys
+- **License signing** — cryptographically verified license keys
 - **Source protection** — critical modules compiled with Cython
 
 ---
