@@ -44,7 +44,7 @@ The main interface. Converse with Æxyr, assign tasks, and watch it work in real
 ![Agent Chat](screenshots/main_dark.png)
 
 ### Network Topology
-Live visualization of all running services, their connections, and data flow. Nodes are interactive — click to inspect, configure, or view logs.
+Live visualization of your entire service constellation. Every running service, LLM provider, SSL certificate, and infrastructure component appears as an interactive node. Drag nodes to arrange your constellation — positions are saved persistently, letting you design a layout that reflects your architecture. Click any node to inspect its health, view configuration, or tail logs in real time. Connection lines trace data flow, API calls, and dependencies between services, giving you an at-a-glance understanding of how everything fits together.
 
 ![Topology](screenshots/topology_dark.png)
 
@@ -108,7 +108,7 @@ Configure different models for chat, utility, and browser tasks independently.
 | Module | Purpose |
 |---|---|
 | **Server Rack** | Real-time service dashboard — start, stop, restart, monitor |
-| **Topology** | Interactive network visualization of all services and connections |
+| **Topology** | Interactive constellation map with persistent node placement, live health, and connection tracing |
 | **Manifests** | Persistent service registry with auto-discovery |
 | **Vitals** | CPU, memory, disk monitoring with historical charts |
 | **Ops Center** | Network, nginx, process management, terminal |
