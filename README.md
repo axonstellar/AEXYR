@@ -4,9 +4,9 @@
 
 # Æxyr
 
-**Autonomous AI Agent Platform**
+**Autonomous Digital Infrastructure Orchestrator**
 
-*Deploy a fully autonomous AI agent with a single Docker command.*
+*Deploy a fully autonomous digital infrastructure orchestrator with a single Docker command.*
 
 ![Docker](https://img.shields.io/badge/Docker-Multi--Arch-2496ED?logo=docker&logoColor=white)
 ![Platforms](https://img.shields.io/badge/Platforms-amd64_%7C_arm64-4A154B)
