@@ -281,19 +281,7 @@ API keys are configured through the Settings page after login — not via enviro
 
 ## Updates
 
-```bash
-docker compose pull && docker compose up -d
-```
-
-Or with `docker run`:
-
-```bash
-docker pull ghcr.io/axonstellar/aexyr:latest
-docker stop aexyr && docker rm aexyr
-# Re-run your docker run command
-```
-
-Persistent volumes ensure your data, projects, and settings survive updates.
+Æxyr is provided as-is at the current release version. Future releases are planned — follow this repository or visit the [storefront](https://aexyr-store.axonstellar.com/) for announcements.
 
 ---
 
