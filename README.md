@@ -22,6 +22,22 @@
 
 ---
 
+## Statement from AxonStellar
+
+> Data sovereignty and privacy aren’t features — they’re rights.
+>
+> The AI development landscape has consolidated around a familiar pattern: build on someone else’s cloud, store your code on someone else’s servers, and trust that someone else’s terms of service will protect what you’ve created. For individuals and organizations who take data privacy seriously, this isn’t a tradeoff — it’s a dealbreaker.
+>
+> We built Æxyr because we believe there should be an alternative. A complete autonomous AI platform that runs entirely on your hardware, where your code never leaves your machine, where no telemetry is collected, and where you own every line of output the agent produces. Not as a compromise with fewer features — but as a fully-equipped digital infrastructure orchestrator that happens to respect your sovereignty by design.
+>
+> AxonStellar isn’t backed by venture capital. We didn’t emerge from a committee or a product roadmap. Æxyr was engineered from first principles by a single architect who refused to accept that powerful AI tooling requires surrendering control of your data. The networking layer, the deterministic port architecture, the biological decision-making protocol, the self-healing infrastructure — these aren’t features borrowed from existing tools. They are original engineering, purpose-built for a world where privacy and capability coexist.
+>
+> The industry says you need their cloud to build with AI. We disagree.
+>
+> — **AxonStellar LLC**
+
+---
+
 ## Overview
 
 Æxyr (ASH-er) is a self-hosted autonomous AI agent platform that lives inside a Docker container on your hardware. It operates its own Linux environment with scoped access to a terminal, file system, package management, and service orchestration — governed by a biological-inspired safety protocol that gates every action through confidence, safety, and necessity scoring before execution.
