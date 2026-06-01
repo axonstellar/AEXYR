@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/aexyr-logo.png" alt="Æxyr Logo" width="120">
+<img src="assets/aexyr-circle-crop-at-ring.png" alt="Æxyr Logo" width="250">
 
 # Æxyr
 
