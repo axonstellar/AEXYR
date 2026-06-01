@@ -130,7 +130,7 @@ Connect to different LLM providers out of the box — from cloud API services of
 - **Authentication** — session-based login with configurable credentials
 - **EULA enforcement** — mandatory acceptance gate before platform access
 - **License signing** — cryptographically verified license keys
-- **Source protection** — critical modules compiled with Cython
+- **Source protection** — critical modules compiled with Encryption
 
 ---
 
