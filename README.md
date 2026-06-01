@@ -188,7 +188,7 @@ volumes:
 docker compose up -d
 ```
 
-### ARM64 (Apple Silicon / NVIDIA DGX Spark)
+### ARM64 architecture support
 
 ```bash
 docker run -d --name aexyr -p 9594:80 \
