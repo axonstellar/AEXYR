@@ -16,7 +16,7 @@
 
 ---
 
-**[Storefront](https://aexyr-store.axonstellar.ai)** · **[EULA](EULA.md)** · **[Changelog](CHANGELOG.md)** · **[Third-Party Notices](THIRD-PARTY-NOTICES.md)**
+**[Storefront](https://aexyr-store.axonstellar.ai)** · **[EULA](EULA.md)** · **[Third-Party Notices](THIRD-PARTY-NOTICES.md)**
 
 </div>
 
