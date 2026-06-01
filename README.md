@@ -90,19 +90,9 @@ Browse, edit, upload, and download files across the entire user space. Syntax-hi
 - **Long-term memory** — FAISS vector database for persistent knowledge across conversations
 - **File & project management** — creates, edits, and organizes files and full project structures
 
-### 8 LLM Providers
-| Provider | Models |
-|---|---|
-| OpenRouter | 200+ models (Claude, GPT, Gemini, Llama, Mistral, etc.) |
-| Anthropic | Claude Opus, Sonnet, Haiku |
-| OpenAI | GPT-4.1, GPT-4o, o1, o3 |
-| Google | Gemini 2.5 Pro, Flash |
-| Mistral | Mistral Large, Medium, Small |
-| Groq | Ultra-fast inference (Llama, Mixtral) |
-| xAI | Grok |
-| Ollama | Run local models — fully offline, zero API cost |
+### Multi-Provider LLM Support
 
-Configure different models for chat, utility, and browser tasks independently.
+Connect to 8 different LLM providers out of the box — from cloud API services offering hundreds of frontier and open-source models to fully local inference with zero API cost. Mix and match providers across tasks: assign one model for conversation, another for utility work, and a third for autonomous browsing. Switch providers at any time through Settings without restarting.
 
 ### AxonStellar Platform
 | Module | Purpose |
@@ -205,7 +195,7 @@ Multi-arch manifests are available — `ghcr.io/axonstellar/aexyr:latest` auto-s
 
 1. Open `http://localhost:9594`
 2. Login: `admin` / `aexyr`
-3. Go to **Settings** → add your API key (OpenRouter, Anthropic, OpenAI, etc.)
+3. Go to **Settings** → add your LLM provider API key
 4. Start chatting — Æxyr is ready to work
 
 ---
