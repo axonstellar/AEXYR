@@ -300,7 +300,7 @@ API keys are configured through the Settings page after login — not via enviro
 
 After the trial period, a license gate activates and platform access requires a purchased license key. A one-time payment of **$49.99** grants a permanent license — no subscriptions, no recurring fees, no expiration. The trial period serves as your complete evaluation window.
 
-Usage is governed by the [End User License Agreement (EULA)](EULA.md).
+Usage is governed by the [End User License Agreement (EULA)](https://aexyr-store.axonstellar.ai/license.html).
 
 See [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) for open-source component attributions.
 
