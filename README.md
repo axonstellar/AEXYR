@@ -44,7 +44,7 @@ The main interface. Converse with Æxyr, assign tasks, and watch it work in real
 ![Agent Chat](screenshots/main_dark.png)
 
 ### Network Topology
-Live visualization of your entire service constellation. Every running service, LLM provider, SSL certificate, and infrastructure component appears as an interactive node. Drag nodes to arrange your constellation — positions are saved persistently, letting you design a layout that reflects your architecture. Click any node to inspect its health, view configuration, or tail logs in real time. Connection lines trace data flow, API calls, and dependencies between services, giving you an at-a-glance understanding of how everything fits together.
+Live visualization of your entire service constellation. Every running service, LLM provider, SSL certificate, and infrastructure component appears as an interactive view. Drag nodes to arrange your constellation — positions are saved persistently, letting you design a layout that reflects your architecture. Click any node to inspect its health, view configuration, or tail logs in real time. Connection lines trace data flow, API calls, and dependencies between services, giving you an at-a-glance understanding of how everything fits together.
 
 ![Topology](screenshots/topology_dark.png)
 
