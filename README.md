@@ -10,7 +10,6 @@
 
 ![Docker](https://img.shields.io/badge/Docker-Multi--Arch-2496ED?logo=docker&logoColor=white)
 ![Platforms](https://img.shields.io/badge/Platforms-amd64_%7C_arm64-4A154B)
-![LLMs](https://img.shields.io/badge/LLM_Providers-8_Supported-00C853)
 ![License](https://img.shields.io/badge/License-Proprietary-orange)
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue)
 ![Trial](https://img.shields.io/badge/Trial-10_Days_Free-brightgreen)
@@ -248,7 +247,7 @@ All data persists across container restarts and upgrades.
 | **Binding** | — | One license per instance |
 | **Activation** | Automatic | Online (once), then fully offline |
 
-Purchase at **[aexyr-store.axonstellar.com](https://aexyr-store.axonstellar.ai)**
+Purchase at **[aexyr-store.axonstellar.ai](https://aexyr-store.axonstellar.ai)**
 
 ---
 
