@@ -302,7 +302,7 @@ After the trial period, a license gate activates and platform access requires a 
 
 Usage is governed by the [End User License Agreement (EULA)](https://aexyr-store.axonstellar.ai/license.html).
 
-See [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) for open-source component attributions.
+See [Third-Party Software Notices](THIRD-PARTY-NOTICES.md#third-party-software-notices) for open-source component attributions.
 
 ---
 
