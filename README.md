@@ -24,7 +24,7 @@
 
 ## Overview
 
-Æxyr is a self-hosted autonomous AI agent platform that lives inside a Docker container on your hardware. It operates its own Linux environment with scoped access to a terminal, file system, package management, and service orchestration — governed by a biological-inspired safety protocol that gates every action through confidence, safety, and necessity scoring before execution.
+Æxyr (ASH-er) is a self-hosted autonomous AI agent platform that lives inside a Docker container on your hardware. It operates its own Linux environment with scoped access to a terminal, file system, package management, and service orchestration — governed by a biological-inspired safety protocol that gates every action through confidence, safety, and necessity scoring before execution.
 
 This isn’t a terminal-only coding assistant or a cloud-hosted builder that holds your code hostage. Æxyr acts as your digital infrastructure orchestration agent, providing a pathway to iterate and host your own content and services without vendor lock-in or cloud-hosted data privacy concerns; The AxonStellar digital infrastructure includes: a Server Rack for managing services, a Network Topology for visualizing your architecture, an Operations Center for system-level oversight, SSL certificate management via CloudFlare & LetsEncrypt, a file browser, and process monitoring. Your code never leaves your machine.
 
