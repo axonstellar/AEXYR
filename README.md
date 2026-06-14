@@ -11,7 +11,7 @@
 ![Docker](https://img.shields.io/badge/Docker-Multi--Arch-2496ED?logo=docker&logoColor=white)
 ![Platforms](https://img.shields.io/badge/Platforms-amd64_%7C_arm64-4A154B)
 ![License](https://img.shields.io/badge/License-Proprietary-orange)
-![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Version](https://img.shields.io/badge/Version-1.0.2-blue)
 ![Trial](https://img.shields.io/badge/Trial-10_Days_Free-brightgreen)
 
 ---
@@ -202,18 +202,9 @@ volumes:
 docker compose up -d
 ```
 
-### ARM64 architecture
+### ARM64 Support
 
-```bash
-docker run -d --name aexyr -p 9594:80 \
-  -v aexyr-data:/aexyr/usr \
-  -v aexyr-logs:/aexyr/logs \
-  -v aexyr-tmp:/aexyr/tmp \
-  -v aexyr-data2:/aexyr/data \
-  ghcr.io/axonstellar/aexyr:latest-arm64
-```
-
-Multi-arch manifests are available — `ghcr.io/axonstellar/aexyr:latest` auto-selects the correct architecture on most systems.
+Æxyr supports ARM64 natively. The same `docker run` and `docker compose` commands work on both amd64 and ARM64 — Docker automatically pulls the correct architecture.
 
 ### First Login
 
