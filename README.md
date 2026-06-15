@@ -151,7 +151,7 @@ Connect to different LLM providers out of the box — from cloud API services of
 - **Authentication** — session-based login with configurable credentials
 - **EULA enforcement** — mandatory acceptance gate before platform access
 - **License signing** — cryptographically verified license keys
-- **Source protection** — critical modules compiled with Encryption
+- **Source protection** — compiled and encrypted critical modules
 
 ---
 
@@ -177,12 +177,18 @@ docker run -d --name aexyr -p 9594:80 \
 
 Create a `docker-compose.yml`:
 
+A ready-to-use [`docker-compose.yml`](docker-compose.yml) is included in this repository, or create your own:
+
 ```yaml
 services:
   aexyr:
     container_name: aexyr-agent
     image: ghcr.io/axonstellar/aexyr:latest
     restart: unless-stopped
+    cap_drop:
+      - NET_RAW
+    security_opt:
+      - no-new-privileges:true
     ports:
       - "9594:80"
     volumes:
@@ -261,17 +267,26 @@ Purchase at **[aexyr-store.axonstellar.ai](https://aexyr-store.axonstellar.ai)**
 
 ---
 
-## Environment Variables
+## Configuration
+
+### Container Environment Variables
 
 | Variable | Default | Description |
 |---|---|---|
 | `AUTH_LOGIN` | `admin` | Web UI username |
 | `AUTH_PASSWORD` | `aexyr` | Web UI password |
-| `AEXYR_WEB_PORT` | `9594` | Host port mapping |
-| `AEXYR_MEM_LIMIT` | `8g` | Container memory limit |
-| `AEXYR_CPUS` | `4.0` | Container CPU limit |
 
 API keys are configured through the Settings page after login — not via environment variables.
+
+### Docker Compose Variables
+
+These variables customize the `docker-compose.yml` and are set in a `.env` file alongside your compose file, or in your shell environment — they are not passed into the container.
+
+| Variable | Default | Description |
+|---|---|---|
+| `AEXYR_WEB_PORT` | `9594` | Host port mapped to the container |
+| `AEXYR_MEM_LIMIT` | `8g` | Container memory limit |
+| `AEXYR_CPUS` | `4.0` | Container CPU limit |
 
 ---
 
