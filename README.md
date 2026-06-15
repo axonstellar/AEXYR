@@ -52,6 +52,7 @@ One autonomous digital infrastructure orchestrator. Self-hosted. Fully yours. No
 
 ```bash
 docker run -d --name aexyr -p 9594:80 \
+  --restart unless-stopped \
   --cap-drop=NET_RAW \
   --security-opt=no-new-privileges:true \
   -v aexyr-data:/aexyr/usr \
@@ -168,6 +169,7 @@ Connect to different LLM providers out of the box — from cloud API services of
 
 ```bash
 docker run -d --name aexyr -p 9594:80 \
+  --restart unless-stopped \
   --cap-drop=NET_RAW \
   --security-opt=no-new-privileges:true \
   -v aexyr-data:/aexyr/usr \
