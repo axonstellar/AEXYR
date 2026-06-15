@@ -51,7 +51,12 @@ Tell Æxyr what to build in natural language. It writes production-grade code, c
 One autonomous digital infrastructure orchestrator. Self-hosted. Fully yours. No subscriptions, no cloud bills, no lock-in.
 
 ```bash
-docker run -d --name aexyr -p 9594:80 ghcr.io/axonstellar/aexyr:latest
+docker run -d --name aexyr -p 9594:80 \
+  -v aexyr-data:/aexyr/usr \
+  -v aexyr-logs:/aexyr/logs \
+  -v aexyr-tmp:/aexyr/tmp \
+  -v aexyr-data2:/aexyr/data \
+  ghcr.io/axonstellar/aexyr:latest
 ```
 
 Open `http://localhost:9594` → Login with `admin` / `aexyr` → Add an API key in Settings → Start building.
