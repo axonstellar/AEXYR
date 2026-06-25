@@ -210,9 +210,13 @@ services:
 
 volumes:
   aexyr-data:
+    name: aexyr-data
   aexyr-logs:
+    name: aexyr-logs
   aexyr-tmp:
+    name: aexyr-tmp
   aexyr-data2:
+    name: aexyr-data2
 ```
 
 ```bash
