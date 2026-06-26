@@ -211,12 +211,16 @@ services:
 volumes:
   aexyr-data:
     name: aexyr-data
+    external: true
   aexyr-logs:
     name: aexyr-logs
+    external: true
   aexyr-tmp:
     name: aexyr-tmp
+    external: true
   aexyr-data2:
     name: aexyr-data2
+    external: true
 ```
 
 ```bash
