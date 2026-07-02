@@ -11,7 +11,7 @@
 ![Docker](https://img.shields.io/badge/Docker-Multi--Arch-2496ED?logo=docker&logoColor=white)
 ![Platforms](https://img.shields.io/badge/Platforms-amd64_%7C_arm64-4A154B)
 ![License](https://img.shields.io/badge/License-Proprietary-orange)
-![Version](https://img.shields.io/badge/Version-1.0.2-blue)
+![Version](https://img.shields.io/badge/Version-1.0.4-blue)
 ![Trial](https://img.shields.io/badge/Trial-10_Days_Free-brightgreen)
 
 ---
