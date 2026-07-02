@@ -13,7 +13,7 @@ All notable changes to Æxyr will be documented in this file.
 ### Changed
 - Updated copyright footer from "AxonStellar" to "AxonStellar LLC" across all platform interfaces
 
-## [1.0.3] — 2026-07-02
+## [1.0.3] — 2026-07-01
 ### Fixed
 - Fixed tool prompt discovery in encrypted Docker builds — `get_unique_filenames_in_dirs()` now discovers `.enc` encrypted files, resolving empty `Tools available` section in agent system prompts that prevented subordinate agents from accessing tools like `search_engine` and `document_query`
 - Project services now spawn as `aexyr-user` by default, allowing the agent to manage (stop/restart) its own deployed services without permission errors
