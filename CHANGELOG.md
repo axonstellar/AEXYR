@@ -6,11 +6,11 @@ All notable changes to Æxyr will be documented in this file.
 
 ## [1.0.5] — 2026-07-23
 ### Security
-- XOR-obfuscated encryption passphrase and split salt storage in `crypto.py` to prevent extraction via `strings` on compiled binaries
+- Hardened internal encryption key storage to prevent static analysis extraction from compiled binaries
 
 ### Fixed
-- **License system hardening**: Atomic trial file writes via `os.replace()` to eliminate race-condition resets; retry-before-delete on decryption failures; VERSION byte normalization in key derivation; file locking with `fcntl.flock()`; unified install ID; trial reset logging
-- **Licensed badge timing fix**: Replaced silent DOM query with MutationObserver to reliably display the licensed Æ badge regardless of async sidebar component load timing
+- **License system hardening**: Atomic file operations to eliminate race-condition state resets; improved error recovery with retry logic; normalized key derivation inputs; added file locking for concurrent access safety; consolidated system identification; enhanced diagnostic logging
+- **Licensed badge display fix**: Resolved a timing issue where the licensed status indicator could fail to appear due to asynchronous UI component loading
 
 ## [1.0.4] — 2026-07-02
 ### Fixed
