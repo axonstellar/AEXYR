@@ -4,6 +4,16 @@ All notable changes to Æxyr will be documented in this file.
 
 ---
 
+## [1.0.6] — 2026-07-31
+### Fixed
+- **Trial countdown reset bug (critical)**: Resolved an issue where simultaneously-launched instances showed divergent trial countdowns, with some resetting to ~9d23h on page refresh
+  - **Root cause**: `_read_version_file_bytes()` silently falling back to `b"unknown"` on transient VERSION file I/O errors, producing a wrong Fernet decryption key — combined with WSGIMiddleware thread pool concurrency allowing race conditions on `.trial` file operations
+  - Cached Fernet encryption key at module load (`_CACHED_TRIAL_KEY`) — VERSION file now read exactly once per process lifetime, eliminating transient I/O failure modes
+  - Added `threading.Lock()` around `check_trial()` to serialize concurrent thread access, preventing race conditions on `.trial` file read/create operations
+  - Added error-level logging when VERSION file read falls back to `b"unknown"`, making silent failures visible in logs
+
+---
+
 ## [1.0.5] — 2026-07-23
 ### Security
 - Hardened internal encryption key storage to prevent static analysis extraction from compiled binaries
