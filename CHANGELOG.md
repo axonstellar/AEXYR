@@ -4,6 +4,19 @@ All notable changes to Æxyr will be documented in this file.
 
 ---
 
+## [1.1.0] — 2026-08-15
+### Added
+- "No Browser Agent" (NBA) button in chat navigation — sends text intervention to skip browser agent usage
+
+### Fixed
+- Server Rack system service buttons now hidden from end-users to prevent accidental platform disruption
+- System services (nginx, sshd) managed via supervisorctl instead of direct process kill
+- Topology node detail panel shows real PID, uptime, CPU, and memory using /proc/net/tcp kernel data
+- Certificate renewal uses `certonly --force-renewal` for reliable cert rotation
+- Certificate deletion and renewal properly reference configured certbot paths
+
+---
+
 ## [1.0.6] — 2026-07-31
 ### Fixed
 - Corrected trial countdown timer
