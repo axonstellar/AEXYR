@@ -5,27 +5,15 @@ All notable changes to Æxyr will be documented in this file.
 ---
 
 ## [1.2.0] — 2026-08-18
-### Added
-- Light-mode themes for Page Builder, Files Parallax Lens, and Terminal Parallax Lens
-- Login page circular video reveal animation on successful authentication
-- EULA accessibility toggle with high-contrast mode and CSS tooltip
-- Page Builder tooltip migration from CSS pseudo-elements to JavaScript DOM for overflow escape
-
 ### Changed
-- Replaced avatar across login, topology, chat, sidebar, EULA, and license gate with neon Ae emblem
-- Dashboard welcome banner updated with light/dark theme variants (WebP RGBA)
-- Login page footer consolidated to single centered line with em dash separator
-- Asset cleanup removed ~2.4 MB of unreferenced files and optimized images
-- SiteBuild Engram prompts refined with 6 fixes addressing canvas-literal reproduction bias
+- Platform-wide visual refresh: light-mode themes for Page Builder, Files, and Terminal; avatar rebrand; theme-aware dashboard banners; login page enhancements; EULA accessibility toggle
+- SiteBuild Engram prompt refinements to reduce canvas-literal reproduction bias
 
 ### Fixed
-- SSL/TLS topology canvas subtitle now uses dynamic JavaScript lookup from SSL_CONFIG instead of server-resolved placeholder
-- Service descriptions no longer reference internal branding in auto-restart text
+- Topology SSL/TLS subtitle now resolves dynamically via JavaScript instead of server-side placeholder
 
 ### Security
-- Build security remediation: all root-level development .md files double-protected via .dockerignore exclusion and Dockerfile deletion
-- Removed 9 non-essential documentation files from source tree
-- Requirements dependency isolation preserved (two-pass install for openai version conflict)
+- Build pipeline hardened: all development documentation double-protected from Docker image via .dockerignore and Dockerfile deletion; dependency isolation preserved for conflicting package versions
 
 ---
 
