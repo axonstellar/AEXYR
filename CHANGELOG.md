@@ -36,7 +36,7 @@ All notable changes to Æxyr will be documented in this file.
 
 ---
 
-## [1.0.1 – 1.1.0] — 2026-06-03 through 2026-08-15
+## [1.1.0] — 2026-08-15
 ### Added
 - "No Browser Agent" (NBA) chat button for skipping browser-based task verification
 
