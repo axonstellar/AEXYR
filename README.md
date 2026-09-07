@@ -98,6 +98,11 @@ Inspired by biological neural networks, the Action Potential Protocol is Æxyr�
 
 ![Neural Core](screenshots/neural_dark.png)
 
+### Neural Cortex
+xyr's persistent knowledge graph — a 3D force-directed constellation of every concept, pattern, solution, and pitfall the agent has encountered. Notes are interconnected through wikilinks, forming a living memory structure that grows with every task. The vault engine indexes and cross-references automatically, while the visualization lets you explore relationships, trace knowledge paths, and understand how ideas connect across your entire operational history. Click any node to read the full note, see its connections, and navigate the graph spatially.
+
+![Neural Cortex](screenshots/cortex_dark.png)
+
 ### Operations Center
 System-level operations dashboard. Network listeners, nginx proxy configuration, process management, and terminal access in one view.
 
@@ -140,6 +145,7 @@ Connect to different LLM providers out of the box — from cloud API services of
 | **Vitals** | CPU, memory, disk monitoring with historical charts |
 | **Ops Center** | Network, nginx, process management, terminal |
 | **Neural Core** | Action Potential Protocol — biological decision-making engine with transparent signal calculation |
+| **Neural Cortex** | 3D knowledge graph — persistent vault of interconnected notes that grows with every task, with force-directed visualization |
 | **SSL Management** | Let’s Encrypt + Cloudflare DNS-01 provisioning, automatic nginx binding, certificate chain visualization, renewal tracking |
 | **Files** | Full file manager with syntax-highlighted editor |
 | **Tasks** | Scheduled and ad-hoc autonomous task execution |
