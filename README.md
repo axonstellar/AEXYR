@@ -68,10 +68,15 @@ Open `http://localhost:9594` → Login with `admin` / `aexyr` → Add an API key
 
 ## Screenshots
 
-### Agent Chat — Dark Theme
-The main interface. Converse with Æxyr, assign tasks, and watch it work in real time. Code execution, file creation, web browsing, and multi-agent delegation all happen inline.
+### Dashboard — Dark Theme
+The main dashboard. Quick-access navigation to every AxonStellar module, system status overview, and your constellation at a glance.
 
-![Agent Chat](screenshots/main_dark.png)
+![Dashboard](screenshots/main_dark.png)
+
+### Agent Chat — Dark Theme
+The primary interface. Converse with Æxyr, assign tasks, and watch it work in real time. Code execution, file creation, web browsing, and multi-agent delegation all happen inline.
+
+![Agent Chat](screenshots/main_chat_dark.png)
 
 ### Network Topology
 Live visualization of your entire service constellation. Every running service, LLM provider, SSL certificate, and infrastructure component appears as an interactive view. Drag nodes to arrange your constellation — positions are saved persistently, letting you design a layout that reflects your architecture. Click any node to inspect its health, view configuration, or tail logs in real time. Connection lines trace data flow, API calls, and dependencies between services, giving you an at-a-glance understanding of how everything fits together.
