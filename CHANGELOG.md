@@ -4,6 +4,25 @@ All notable changes to Æxyr will be documented in this file.
 
 ---
 
+## [1.3.5] — 2026-09-07
+### Added
+- Neural Cortex knowledge graph: a persistent, interconnected vault of notes that grows with every task, with 3D force-directed visualization and automatic context injection
+- Multi-domain SSL certificate management: support for multiple Cloudflare accounts and domains with per-certificate credential routing and automatic domain-to-service binding
+- Knowledge vault ships with 92 seed notes across 10 categories, forming a baseline knowledge constellation
+
+### Changed
+- Server Rack service control commands now route through the Process Manager for reliable process lifecycle management
+- Platform page loaders can be toggled off in settings for instant navigation
+
+### Fixed
+- Certificate provisioning error handling for credential file write failures
+- Neural Cortex large-graph visibility (camera clipping, adaptive repulsion, velocity clamping)
+- Mobile settings modal button positioning
+- UI flash on page load eliminated across all visualizer pages
+- Various sidebar layout, notification, and tooltip refinements
+
+---
+
 ## [1.2.0] — 2026-08-18
 ### Changed
 - Platform-wide visual refresh: light-mode themes for Page Builder, Files, and Terminal; avatar rebrand; theme-aware dashboard banners; login page enhancements; EULA accessibility toggle
