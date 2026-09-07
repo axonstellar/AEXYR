@@ -101,7 +101,7 @@ Inspired by biological neural networks, the Action Potential Protocol is Æxyr�
 ### Neural Cortex
 xyr's persistent knowledge graph — a 3D force-directed constellation of every concept, pattern, solution, and pitfall the agent has encountered. Notes are interconnected through wikilinks, forming a living memory structure that grows with every task. The vault engine indexes and cross-references automatically, while the visualization lets you explore relationships, trace knowledge paths, and understand how ideas connect across your entire operational history. Click any node to read the full note, see its connections, and navigate the graph spatially.
 
-![Neural Cortex](screenshots/cortex_dark.png)
+![Neural Cortex](screenshots/cortex_dark.png?v=2)
 
 ### Operations Center
 System-level operations dashboard. Network listeners, nginx proxy configuration, process management, and terminal access in one view.
