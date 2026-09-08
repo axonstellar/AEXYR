@@ -113,7 +113,7 @@ End-to-end SSL lifecycle management powered by Let’s Encrypt and Cloudflare DN
 
 Æxyr can provision and assign SSL certificates autonomously as part of any deployment workflow.
 
-![Certificates](screenshots/certificates_dark.png?v=2)
+![Certificates](screenshots/certificates_dark_2.png)
 
 ### File Manager
 Browse, edit, upload, and download files across the entire user space. Syntax-highlighted editor with support for all common file types.
