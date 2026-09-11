@@ -4,7 +4,7 @@
 
 # Æxyr
 
-**The Neural Agent**
+**The Digital Infrastructure Agent**
 
 *Deploy a fully autonomous digital infrastructure orchestrator with a single Docker command.*
 
